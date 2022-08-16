@@ -14,7 +14,7 @@ function App() {
     <User name="Ahmet" city="Adana" age = {39}/>
 
     <Book data ={book}/> 
-    <Book data ={book} friends = {['Kemal','Halide''İskender']}/> 
+    <Book data ={book} friends = {['Kemal','Halide','İskender']}/> 
   </div>
 }
 
