@@ -18,6 +18,14 @@ function Header() {
         ) : (
           <a href=''>Giriş yapı</a>
         )}
+
+        {
+          isLoggendIn && <div>Hoşgeldin {name}</div>
+        }
+
+        {
+          !isLoggendIn && <div>Hoşgeldin {name}</div>
+        }
     </div>
     <div>
       <h1>Header</h1>
@@ -28,7 +36,7 @@ function Header() {
 
 export default Header
 
-//iki div alt alta kullanıldığında iki div başka bir div ile sarmallanmadı yada reactin bize sağlamış olduğu
+//iki div alt alta kullanıldığında iki div başka bir div ile sarmallanmalı yada reactin bize sağlamış olduğu
 //<>
 //</>
 //fragment ifadesi kullanılabilir
@@ -54,5 +62,5 @@ export default Header
     */
 
    /*PROPS denilen konu aslında Property yani  özellik olarak tanımı yapılır.
-   Bir componenti ilk kez render ederken onun görünümünü sağlayacak olan bilgileri Componen oluştururken
+   Bir componenti ilk kez render ederken onun görünümünü sağlayacak olan bilgileri Component oluştururken
    kolaylık sağlayacak kod rfce(React Function Export Component) */ 
