@@ -34,10 +34,10 @@ function Book({title,data : {name,page,author}, friends}) {
         <div>Author : {author}</div>
       
       {
-        friends.map((friends,i) =>(
-          <div key={i}>{friends}</div>   
+       // friends.map((friends,i) =>(
+          //<div key={i}>{friends}</div>   
           //return <div key={i}>{friends}</div>   şeklindede return işlemi yapılabilirdi.       
-        ))
+       // ))
       }
       </div>
     )

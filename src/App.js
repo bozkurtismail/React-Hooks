@@ -1,4 +1,9 @@
+import Author from "./components/Author";
 import Book from "./components/Book";
+import Colors from "./components/Colors";
+import Counter from "./components/Counter";
+import Form from "./components/Form";
+import Form2 from "./components/Form2";
 import Header from "./components/Header";
 import User from "./components/User";
 
@@ -21,6 +26,21 @@ function App() {
           author : "Sabahattin Ali"
     }}/>
     <Book data ={book} friends = {['Kemal','Halide','İskender']}/> 
+
+    <Counter/>
+    <hr/>
+    <Author/>
+
+    <hr/>
+    <Colors/>
+
+    <hr/>
+    <Form/>
+    <br/>
+
+    <hr/>
+    <strong>FORM 2</strong>
+    <Form2/>
   </div>
 }
 
