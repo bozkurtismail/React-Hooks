@@ -12,12 +12,7 @@ function Header() {
       <p>Test</p>
       {name}{surname}
 
-      {
-        isLoggendIn ? (
-          <div>Hoşgeldin {name}</div>
-        ) : (
-          <a href=''>Giriş yapı</a>
-        )}
+      
 
         {
           isLoggendIn && <div>Hoşgeldin {name}</div>
@@ -64,3 +59,11 @@ export default Header
    /*PROPS denilen konu aslında Property yani  özellik olarak tanımı yapılır.
    Bir componenti ilk kez render ederken onun görünümünü sağlayacak olan bilgileri Component oluştururken
    kolaylık sağlayacak kod rfce(React Function Export Component) */ 
+
+   /*{
+        isLoggendIn ? (
+          <div>Hoşgeldin {name}</div>
+        ) : (
+          <a href=''>Giriş yapı</a>
+        )
+    }*/
