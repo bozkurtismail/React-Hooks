@@ -1,4 +1,5 @@
 import Author from "./components/Author";
+import Axios from "./components/Axios";
 import Book from "./components/Book";
 import Colors from "./components/Colors";
 import Counter from "./components/Counter";
@@ -46,6 +47,10 @@ function App() {
     <hr/>
 
     <Users/>
+
+    <hr/>
+
+    <Axios/>
   </div>
 }
 
