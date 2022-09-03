@@ -6,6 +6,7 @@ import Form from "./components/Form";
 import Form2 from "./components/Form2";
 import Header from "./components/Header";
 import User from "./components/User";
+import Users from "./components/Users";
 
 const book = {
   name : "Kuyucaklı Yusuf",
@@ -41,6 +42,10 @@ function App() {
     <hr/>
     <strong>FORM 2</strong>
     <Form2/>
+
+    <hr/>
+
+    <Users/>
   </div>
 }
 
